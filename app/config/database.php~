@@ -1,0 +1,12 @@
+<?php
+class DATABASE_CONFIG {
+
+	var $default = array(
+		'driver' => 'mysql',
+		'host' => 'localhost',
+		'login' => 'ubuntu',
+		'password' => 'ubuntu',
+		'database' => 'ubuntu',
+	);
+}
+?>

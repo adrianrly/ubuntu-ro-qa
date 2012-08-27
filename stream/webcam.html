@@ -1,0 +1,41 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<!-- A minimal Flowplayer setup to get you started -->
+
+
+<!--
+include flowplayer JavaScript file that does
+Flash embedding and provides the Flowplayer API.
+-->
+<script type="text/javascript" src="flowplayer-3.2.6.min.js"></script>
+
+<!-- some minimal styling, can be removed -->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- page title -->
+<title>My Webcam Stream</title>
+
+</head><body>
+
+<div id="page">
+
+<h1>-=WEBCAM=-</h1>
+
+<p>lol</p>
+
+<!-- Change line href="?" more suitable -->
+<a
+href="http://Adrian-Lnx:8090/stream.flv"
+style="display:block;width:400px;height:225px"
+id="player">
+</a>
+
+<!-- Location of flowplayer -->
+<script>
+flowplayer("player", "http://Adrian-Lnx/stream/flowplayer-3.2.7.swf");
+</script>
+
+</div>
+
+
+</body></html>

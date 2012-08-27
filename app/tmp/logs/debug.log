@@ -1,0 +1,1 @@
+2012-08-07 02:50:14 Notice: Notice (8): Undefined property: SessionComponent::$enabled in [/var/www/cake/libs/controller/component.php, line 142]
